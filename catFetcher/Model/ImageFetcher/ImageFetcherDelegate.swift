@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol ImageFetcherDelegate: class {
+protocol ImageFetcherDelegate: AnyObject {
     func finishedDownload(of downloadTask: URLSessionDownloadTask, in session: URLSession, to url: URL) -> ()
 }
 

@@ -14,9 +14,7 @@
 		9D69E09C2606481300F4D153 /* SettingsPresentationControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69E09B2606481300F4D153 /* SettingsPresentationControllerManager.swift */; };
 		9D69E09F26064EE700F4D153 /* SettingsPresentationControllerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69E09E26064EE700F4D153 /* SettingsPresentationControllerAnimator.swift */; };
 		9D69E0A726090B1000F4D153 /* CatImagesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D69E0A526090B1000F4D153 /* CatImagesModel.xcdatamodeld */; };
-		9D6A332A26288763008E504B /* StartPauseDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A332926288763008E504B /* StartPauseDownloadModel.swift */; };
-		9D6A332E26288EB7008E504B /* StartPauseDownloadDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A332D26288EB7008E504B /* StartPauseDownloadDelegate.swift */; };
-		9D6B2D1925FAB91E0033F456 /* StartPauseDownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B2D1825FAB91E0033F456 /* StartPauseDownloadButton.swift */; };
+		9D6B2D1925FAB91E0033F456 /* StartPauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B2D1825FAB91E0033F456 /* StartPauseButton.swift */; };
 		9D72D6AA2615157000BA60EF /* ImageModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D72D6A82615157000BA60EF /* ImageModel+CoreDataClass.swift */; };
 		9D72D6AB2615157000BA60EF /* ImageModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D72D6A92615157000BA60EF /* ImageModel+CoreDataProperties.swift */; };
 		9D72D6B326160BE700BA60EF /* SettingsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D72D6B226160BE700BA60EF /* SettingsObserver.swift */; };
@@ -24,6 +22,8 @@
 		9D73C7912612736800B6CBDE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D73C7902612736800B6CBDE /* CoreDataManager.swift */; };
 		9D74EDBE25FF80940036ACAF /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74EDBD25FF80940036ACAF /* Settings.swift */; };
 		9D74EDC1260232A10036ACAF /* SettingsPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74EDC0260232A10036ACAF /* SettingsPresentationController.swift */; };
+		9D7550102639D0FB008A027B /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75500F2639D0FB008A027B /* MainModel.swift */; };
+		9D7550132639D869008A027B /* MainModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7550122639D869008A027B /* MainModelDelegate.swift */; };
 		9DA2EA8625F0352E00015812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2EA8525F0352E00015812 /* AppDelegate.swift */; };
 		9DA2EA8825F0352E00015812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2EA8725F0352E00015812 /* SceneDelegate.swift */; };
 		9DA2EA8A25F0352E00015812 /* CatBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2EA8925F0352E00015812 /* CatBrowserViewController.swift */; };
@@ -31,6 +31,7 @@
 		9DA2EA9225F0353000015812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2EA9025F0353000015812 /* LaunchScreen.storyboard */; };
 		9DA2EA9C25F0364400015812 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2EA9B25F0364400015812 /* ImageFetcher.swift */; };
 		9DA2EA9F25F0384400015812 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2EA9E25F0384400015812 /* TableViewCell.swift */; };
+		9DB6268D263C46EF00B2B683 /* StartPauseButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB6268C263C46EF00B2B683 /* StartPauseButtonDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +42,7 @@
 		9D69E09B2606481300F4D153 /* SettingsPresentationControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresentationControllerManager.swift; sourceTree = "<group>"; };
 		9D69E09E26064EE700F4D153 /* SettingsPresentationControllerAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresentationControllerAnimator.swift; sourceTree = "<group>"; };
 		9D69E0A626090B1000F4D153 /* ImagesModelStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImagesModelStorage.xcdatamodel; sourceTree = "<group>"; };
-		9D6A332926288763008E504B /* StartPauseDownloadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPauseDownloadModel.swift; sourceTree = "<group>"; };
-		9D6A332D26288EB7008E504B /* StartPauseDownloadDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPauseDownloadDelegate.swift; sourceTree = "<group>"; };
-		9D6B2D1825FAB91E0033F456 /* StartPauseDownloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPauseDownloadButton.swift; sourceTree = "<group>"; };
+		9D6B2D1825FAB91E0033F456 /* StartPauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPauseButton.swift; sourceTree = "<group>"; };
 		9D72D6A82615157000BA60EF /* ImageModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageModel+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9D72D6A92615157000BA60EF /* ImageModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9D72D6B226160BE700BA60EF /* SettingsObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsObserver.swift; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		9D73C7902612736800B6CBDE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9D74EDBD25FF80940036ACAF /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		9D74EDC0260232A10036ACAF /* SettingsPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresentationController.swift; sourceTree = "<group>"; };
+		9D75500F2639D0FB008A027B /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		9D7550122639D869008A027B /* MainModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModelDelegate.swift; sourceTree = "<group>"; };
 		9DA2EA8225F0352E00015812 /* catFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA2EA8525F0352E00015812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA2EA8725F0352E00015812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		9DA2EA9325F0353000015812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DA2EA9B25F0364400015812 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
 		9DA2EA9E25F0384400015812 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9DB6268C263C46EF00B2B683 /* StartPauseButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPauseButtonDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,21 +92,21 @@
 			path = CustomCell;
 			sourceTree = "<group>";
 		};
-		9D60B04525FA3704004A9BBA /* Navigation */ = {
+		9D60B04525FA3704004A9BBA /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
 				9D57BD7C25F2EEA100F29822 /* NavigationController.swift */,
 			);
-			path = Navigation;
+			path = NavigationController;
 			sourceTree = "<group>";
 		};
-		9D60B04725FA3722004A9BBA /* MainControllers */ = {
+		9D60B04725FA3722004A9BBA /* MainController */ = {
 			isa = PBXGroup;
 			children = (
 				9DA2EA8925F0352E00015812 /* CatBrowserViewController.swift */,
 				9D57BD8225F2F9CB00F29822 /* NeViewController.swift */,
 			);
-			path = MainControllers;
+			path = MainController;
 			sourceTree = "<group>";
 		};
 		9D6B2D1525FAA7B80033F456 /* SettingsController */ = {
@@ -118,14 +120,13 @@
 			path = SettingsController;
 			sourceTree = "<group>";
 		};
-		9D6B2D1C25FAD2BA0033F456 /* HelperUI */ = {
+		9D6B2D1C25FAD2BA0033F456 /* StartPauseButton */ = {
 			isa = PBXGroup;
 			children = (
-				9D6B2D1825FAB91E0033F456 /* StartPauseDownloadButton.swift */,
-				9D6A332926288763008E504B /* StartPauseDownloadModel.swift */,
-				9D6A332D26288EB7008E504B /* StartPauseDownloadDelegate.swift */,
+				9D6B2D1825FAB91E0033F456 /* StartPauseButton.swift */,
+				9DB6268C263C46EF00B2B683 /* StartPauseButtonDelegate.swift */,
 			);
-			path = HelperUI;
+			path = StartPauseButton;
 			sourceTree = "<group>";
 		};
 		9D72D6BA2616299300BA60EF /* SettingsModel+Notification */ = {
@@ -170,19 +171,61 @@
 			children = (
 				9DA2EA8525F0352E00015812 /* AppDelegate.swift */,
 				9DA2EA8725F0352E00015812 /* SceneDelegate.swift */,
-				9D60B04525FA3704004A9BBA /* Navigation */,
-				9D60B04325FA36E6004A9BBA /* CustomCell */,
-				9D73C78126126B5E00B6CBDE /* DataModel */,
-				9D60B03E25F8CF06004A9BBA /* ImageFetcher */,
-				9D6B2D1C25FAD2BA0033F456 /* HelperUI */,
-				9D60B04725FA3722004A9BBA /* MainControllers */,
-				9D6B2D1525FAA7B80033F456 /* SettingsController */,
-				9D72D6BA2616299300BA60EF /* SettingsModel+Notification */,
+				9DB62691263C48EE00B2B683 /* UI */,
+				9DB62692263C491400B2B683 /* Model */,
 				9DA2EA8E25F0353000015812 /* Assets.xcassets */,
 				9DA2EA9025F0353000015812 /* LaunchScreen.storyboard */,
 				9DA2EA9325F0353000015812 /* Info.plist */,
 			);
 			path = catFetcher;
+			sourceTree = "<group>";
+		};
+		9DB62691263C48EE00B2B683 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9DB62694263C49BC00B2B683 /* AdditionalViews */,
+				9DB62693263C498400B2B683 /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9DB62692263C491400B2B683 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D60B03E25F8CF06004A9BBA /* ImageFetcher */,
+				9D73C78126126B5E00B6CBDE /* DataModel */,
+				9DB62697263C510E00B2B683 /* MainModel */,
+				9D72D6BA2616299300BA60EF /* SettingsModel+Notification */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DB62693263C498400B2B683 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D60B04525FA3704004A9BBA /* NavigationController */,
+				9D60B04725FA3722004A9BBA /* MainController */,
+				9D6B2D1525FAA7B80033F456 /* SettingsController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DB62694263C49BC00B2B683 /* AdditionalViews */ = {
+			isa = PBXGroup;
+			children = (
+				9D60B04325FA36E6004A9BBA /* CustomCell */,
+				9D6B2D1C25FAD2BA0033F456 /* StartPauseButton */,
+			);
+			path = AdditionalViews;
+			sourceTree = "<group>";
+		};
+		9DB62697263C510E00B2B683 /* MainModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D75500F2639D0FB008A027B /* MainModel.swift */,
+				9D7550122639D869008A027B /* MainModelDelegate.swift */,
+			);
+			path = MainModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,21 +297,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D6A332E26288EB7008E504B /* StartPauseDownloadDelegate.swift in Sources */,
 				9DA2EA9F25F0384400015812 /* TableViewCell.swift in Sources */,
 				9D73C7912612736800B6CBDE /* CoreDataManager.swift in Sources */,
+				9D7550132639D869008A027B /* MainModelDelegate.swift in Sources */,
 				9D72D6AA2615157000BA60EF /* ImageModel+CoreDataClass.swift in Sources */,
 				9D57BD7D25F2EEA100F29822 /* NavigationController.swift in Sources */,
 				9D72D6B326160BE700BA60EF /* SettingsObserver.swift in Sources */,
+				9DB6268D263C46EF00B2B683 /* StartPauseButtonDelegate.swift in Sources */,
 				9D69E0A726090B1000F4D153 /* CatImagesModel.xcdatamodeld in Sources */,
 				9D60B03C25F8CEFB004A9BBA /* ImageFetcherDelegate.swift in Sources */,
 				9D6442AC25FA6200003D358A /* SettingsViewController.swift in Sources */,
 				9DA2EA8A25F0352E00015812 /* CatBrowserViewController.swift in Sources */,
 				9D74EDBE25FF80940036ACAF /* Settings.swift in Sources */,
-				9D6B2D1925FAB91E0033F456 /* StartPauseDownloadButton.swift in Sources */,
+				9D6B2D1925FAB91E0033F456 /* StartPauseButton.swift in Sources */,
 				9D69E09F26064EE700F4D153 /* SettingsPresentationControllerAnimator.swift in Sources */,
+				9D7550102639D0FB008A027B /* MainModel.swift in Sources */,
 				9D69E09C2606481300F4D153 /* SettingsPresentationControllerManager.swift in Sources */,
-				9D6A332A26288763008E504B /* StartPauseDownloadModel.swift in Sources */,
 				9D74EDC1260232A10036ACAF /* SettingsPresentationController.swift in Sources */,
 				9D57BD8325F2F9CB00F29822 /* NeViewController.swift in Sources */,
 				9DA2EA9C25F0364400015812 /* ImageFetcher.swift in Sources */,

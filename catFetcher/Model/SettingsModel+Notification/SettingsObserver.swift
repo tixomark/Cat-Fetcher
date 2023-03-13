@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol SettingsObserver: class {
+protocol SettingsObserver: AnyObject {
     
     var classDescription: String { get }
     

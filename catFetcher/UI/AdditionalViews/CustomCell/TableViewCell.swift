@@ -22,6 +22,7 @@ class TableViewCell: UITableViewCell {
         self.addGestureRecognizer(longTapGesture)
     }
     
+    
     @objc func longTapAction() {
 //        self.isSelected = true
         

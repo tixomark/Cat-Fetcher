@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol SettingsObserverManagerProtocol: class {
+protocol SettingsObserverManagerProtocol: AnyObject {
     var observers: [SettingsObserver] {get set}
     
     func attach(_ observer: SettingsObserver)

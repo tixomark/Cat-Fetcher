@@ -61,7 +61,7 @@ final class Settings {
 
 //MARK: Implement observer functionality to 
 extension Settings: SettingsObserverManagerProtocol {
-    
+        
     func attach(_ observer: SettingsObserver) {
         print("Attached \(observer.classDescription) as Settings observer")
         observers.append(observer)

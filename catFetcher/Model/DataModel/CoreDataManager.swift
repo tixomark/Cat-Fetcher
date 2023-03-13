@@ -17,7 +17,7 @@ final class CoreDataImageModelManager {
     
     let privateCoreDataQueue = DispatchQueue(label: "com.coredata.queue",
                                              qos: .utility,
-                                             attributes: .concurrent,
+//                                             attributes: .concurrent,
                                              autoreleaseFrequency: .workItem,
                                              target: .global(qos: .background))
     
